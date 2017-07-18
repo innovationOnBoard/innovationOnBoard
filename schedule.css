@@ -1,9 +1,26 @@
-body {
-  color: #768390;
-  background: #FFF;
-  font-family: "Effra", Helvetica, sans-serif;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
+
+.skew:before {
+  content: '';
+  position: absolute;
+  overflow: visible;
+  bottom: 40%;
+  width: 288px;
+  height: 70px;
+  background: #00bcd4;
+  z-index: -1;
+  -webkit-transform: skewY(-2deg);
+  -moz-transform: skewY(-2deg);
+  -ms-transform: skewY(-2deg);
+  -o-transform: skewY(-2deg);
+  transform: skewY(-2deg);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: initial;
+}
+
+.skew .header-inner {
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -19,43 +36,15 @@ a:hover {
   text-decoration: none;
 }
 
-.example-header {
-  background: #3D4351;
-  color: #FFF;
-  font-weight: 300;
-  padding: 3em 1em;
-  text-align: center;
-}
-.example-header h1 {
-  color: #FFF;
-  font-weight: 300;
-  margin-bottom: 20px;
-}
-.example-header p {
-  font-size: 12px;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  font-weight: 700;
-}
 
 .container-fluid .row {
   padding: 0 0 4em 0;
+  height: 100%;
 }
 .container-fluid .row:nth-child(even) {
   background: #F1F4F5;
 }
 
-.example-title {
-  text-align: center;
-  margin-bottom: 60px;
-  padding: 3em 0;
-  border-bottom: 1px solid #E4EAEC;
-}
-.example-title p {
-  margin: 0 auto;
-  font-size: 16px;
-  max-width: 400px;
-}
 
 /*==================================
     TIMELINE
@@ -70,7 +59,7 @@ a:hover {
   width: 100%;
 }
 .timeline h1, .timeline h2, .timeline h3, .timeline h4, .timeline h5, .timeline h6 {
-  line-height: inherit;
+  line-height: 1.4em;
 }
 
 /*----- TIMELINE ITEM -----*/
@@ -85,11 +74,18 @@ a:hover {
 /*----- TIMELINE INFO -----*/
 .timeline-info {
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 500;
   letter-spacing: 3px;
   margin: 0 0 .5em 0;
   text-transform: uppercase;
   white-space: nowrap;
+}
+
+.timeline-desc{
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #00bcd4;
 }
 
 /*----- TIMELINE MARKER -----*/
@@ -143,6 +139,7 @@ a:hover {
 /*----- TIMELINE PERIOD -----*/
 .period {
   padding: 0;
+  text-transform: uppercase;
 }
 .period .timeline-info {
   display: none;
@@ -169,6 +166,8 @@ a:hover {
   padding: 40px 0 70px;
 }
 .period .timeline-title {
+  color: #eee;
+  font-weight: bold;
   margin: 0;
 }
 

@@ -1,23 +1,75 @@
-<html>
+<!DOCTYPE html>
 <head>
-  <link rel="stylesheet" href="schedule.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="navbar.css">  
+  <link rel="stylesheet" href="schedule.css">
+  <link rel="stylesheet" href="clouds.css">  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-<body>
-<div class="container-fluid">
-    <div class="row example-basic">
-        <div class="col-md-12 example-title">
-            <h1><b>Innovation OnBoard</b></h1>
-            <h2>Event Schedule</h2>
-        </div>
+<body data-spy="scroll" data-target="#navbar" data-offset="20">
+
+<nav id="navbar-main" class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand">Innovation OnBoard</a>
+    </div>
+    <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#schedule">Schedule</a></li>
+        <li><a href="#register">Register</a></li>
+        <li><a href="#sponsor">Sponsor</a></li>
+      </ul>
+    </div>
+    <!--/.nav-collapse -->
+  </div>
+</nav>
+<header class="onboard-header text-center" id="home">
+    <div class="x1 hidden-sm">
+        <div class="cloud"></div>
+    </div>
+
+    <div class="x2 hidden-sm">
+        <div class="cloud"></div>
+    </div>
+
+    <div class="x3 hidden-sm">
+        <div class="cloud"></div>
+    </div>
+
+    <div class="x4 hidden-sm">
+        <div class="cloud"></div>
+    </div>
+
+    <div class="x5 hidden-sm">
+        <div class="cloud"></div>
+    </div>
+
+    <div class="onboard-title">
+        <h1>Innovation OnBoard</h1>
+        <p>Fostering Entrepreneurship in UBC Applied Science</p>
+    </div>
+</header>
+<!-- Begin Navbar -->
+
+<div class="container-fluid" id="schedule">
+    <div class="row">
         <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
             <ul class="timeline">
                 <li class="timeline-item period">
                     <div class="timeline-info"></div>
                     <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h2 class="timeline-title">September 2017</h2>
+                    <div class="timeline-content skew">
+                        <h2 class="timeline-title header-inner">September 2017</h2>
                     </div>
                 </li>            
                 <li class="timeline-item">
@@ -26,8 +78,8 @@
                     </div>
                     <div class="timeline-marker"></div>
                     <div class="timeline-content">
-                        <h3 class="timeline-title">Resources for Entrepeneurs in Vancouver</h3>
-                        <p>Pre-registration workshop | Learn about resources for entrepreneurs in Vancouver, presented by e@UBC.</p>
+                        <h3 class="timeline-title">Resources for Entrepreneurs in Vancouver</h3>
+                        <p><span class="timeline-desc">Pre-registration workshop</span> | Learn about resources for entrepreneurs in Vancouver, presented by e@UBC.</p>
                     </div>
                 </li>
                 <li class="timeline-item">
@@ -37,14 +89,14 @@
                     <div class="timeline-marker"></div>
                     <div class="timeline-content">
                         <h3 class="timeline-title">UBC Entrepreneur Speaker Series</h3>
-                        <p>Pre-registration workshop | Learn about the path of a successful entrepreuneur from UBC Hatch and how they took their concept from bench to trench.</p>
+                        <p><span class="timeline-desc">Pre-registration workshop</span> | Learn about the path of a successful entrepreuneur from UBC Hatch and how they took their concept from bench to trench.</p>
                     </div>
                 </li>
                 <li class="timeline-item period">
                     <div class="timeline-info"></div>
                     <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h2 class="timeline-title">October 2017</h2>
+                    <div class="timeline-content skew">
+                        <h2 class="timeline-title header-inner">October 2017</h2>
                     </div>
                 </li>
                 <li class="timeline-item">
@@ -54,7 +106,7 @@
                     <div class="timeline-marker"></div>
                     <div class="timeline-content">
                         <h3 class="timeline-title">Hypothesis, Problem, and Solution Workshop (Hatching Health Style)</h3>
-                        <p>Pre-registration workshop | Come learn how to test and validate your ideas, saving you precious time and money.</p>
+                        <p><span class="timeline-desc">Pre-registration workshop</span> | Come learn how to test and validate your ideas, saving you precious time and money.</p>
                     </div>
                 </li>
                 <li class="timeline-item">
@@ -64,7 +116,7 @@
                     <div class="timeline-marker"></div>
                     <div class="timeline-content">
                         <h3 class="timeline-title">Competitive Intelligence Workshop</h3>
-                        <p>Pre-registration workshop | Learn about your potential competition for proposed business. </p>
+                        <p><span class="timeline-desc">Pre-registration workshop</span> | Learn about your potential competition for proposed business. </p>
                     </div>
                 </li>
                 <li class="timeline-item">
@@ -74,7 +126,7 @@
                     <div class="timeline-marker"></div>
                     <div class="timeline-content">
                         <h3 class="timeline-title"><b>Registration Opens!</b></h3>
-                        <p>Apply online with your details.</p>
+                        <p><span class="timeline-desc">Registration</span> | Apply online with your details.</p>
                     </div>
                 </li>     
                 <li class="timeline-item">
@@ -84,14 +136,14 @@
                     <div class="timeline-marker"></div>
                     <div class="timeline-content">
                         <h3 class="timeline-title">IP 101</h3>
-                        <p>Workshop series | Learn the basics about intellectual property including associated costs, why you need it and why it's important.</p>
+                        <p><span class="timeline-desc">Workshop series</span> | Learn the basics about intellectual property including associated costs, why you need it and why it's important.</p>
                     </div>
                 </li>                           
                 <li class="timeline-item period">
                     <div class="timeline-info"></div>
                     <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h2 class="timeline-title">November 2017</h2>
+                    <div class="timeline-content skew">
+                        <h2 class="timeline-title header-inner">November 2017</h2>
                     </div>
                 </li>
                 <li class="timeline-item">
@@ -101,7 +153,7 @@
                     <div class="timeline-marker"></div>
                     <div class="timeline-content">
                         <h3 class="timeline-title"><b>Registration Closes</b></h3>
-                        <p>All applications after the closing date will not be considered.</p>
+                        <p><span class="timeline-desc">Registration</span> | All applications after the closing date will not be considered.</p>
                     </div>
                 </li>      
                 <li class="timeline-item">
@@ -111,7 +163,7 @@
                     <div class="timeline-marker"></div>
                     <div class="timeline-content">
                         <h3 class="timeline-title">Business Plans for New Entrepreneurs</h3>
-                        <p>Workshop series | Figure out the economics of your business including what your funding model will be and what kind of market you are aiming to disrupt.</p>
+                        <p><span class="timeline-desc">Workshop series</span> | Figure out the economics of your business including what your funding model will be and what kind of market you are aiming to disrupt.</p>
                     </div>
                 </li>        
                 <li class="timeline-item">
@@ -121,14 +173,14 @@
                     <div class="timeline-marker"></div>
                     <div class="timeline-content">
                         <h3 class="timeline-title">Mentor Partnership</h3>
-                        <p>Workshop series | Get partnered with industry professionals who are experienced in your field of interest.</p>
+                        <p><span class="timeline-desc">Workshop series</span> | Get partnered with industry professionals who are experienced in your field of interest.</p>
                     </div>
                 </li>
                 <li class="timeline-item period">
                     <div class="timeline-info"></div>
                     <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h2 class="timeline-title">January 2018</h2>
+                    <div class="timeline-content skew">
+                        <h2 class="timeline-title header-inner">January 2018</h2>
                     </div>
                 </li>
                 <li class="timeline-item">
@@ -138,7 +190,7 @@
                     <div class="timeline-marker"></div>
                     <div class="timeline-content">
                         <h3 class="timeline-title">Innovation Fair</h3>
-                        <p>Competition - Semifinal | Compete against other teams for the top 5 spots and the chance to pitch before a live panel of judges.</p>
+                        <p><span class="timeline-desc">Competition - Semifinal</span> | Compete against other teams for the top 5 spots and the chance to pitch before a live panel of judges.</p>
                     </div>
                 </li>
                 <li class="timeline-item">
@@ -148,14 +200,14 @@
                     <div class="timeline-marker"></div>
                     <div class="timeline-content">
                         <h3 class="timeline-title">Pitching Workshop</h3>
-                        <p>Preparation - Finals | Learn how to create a compelling presentation to convince unsure investors to fund your startup.</p>
+                        <p><span class="timeline-desc">Preparation - Finals</span> | Learn how to create a compelling presentation to convince unsure investors to fund your startup.</p>
                     </div>
                 </li>
                 <li class="timeline-item period">
                     <div class="timeline-info"></div>
                     <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h2 class="timeline-title">February 2018</h2>
+                    <div class="timeline-content skew">
+                        <h2 class="timeline-title header-inner">February 2018</h2>
                     </div>
                 </li>                
                 <li class="timeline-item">
@@ -165,18 +217,64 @@
                     <div class="timeline-marker"></div>
                     <div class="timeline-content">
                         <h3 class="timeline-title"><b>Final Competition and Reception</b></h3>
-                        <p>Competition - Finals | Dragon's Den style face-off before a panel of judges. Five come in but only three will be rewarded.</p>
+                        <p><span class="timeline-desc">Competition - Finals</span> | Dragon's Den style face-off before a panel of judges. Five come in but only three will be rewarded.</p>
                     </div>
                 </li>                                                                                                                         
             </ul>
         </div>
+    </div>  
+</div>
+
+<div class="container-fluid">
+    <div class="row text-center">
+        <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
+            <div class="section-text" id="register">
+                <h1>Registration</h1>
+                <p>Registration details will be posted soon!</p>
+            </div>
+        </div>
     </div>
 </div>
-<script type="text/javascript" src="https://use.typekit.net/bkt6ydm.js"></script>
+
+<div class="container-fluid">
+    <div class="row text-center">
+        <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
+            <div class="section-text" id="sponsor">
+                <h1>Sponsorship</h1>
+                <p>Sponsorship package will be posted soon!</p>
+            </div>
+        </div>
+    </div>  
+</div>
+
+<footer class="onboard-footer text-left">
+    <div class="col-lg-12 text-center onboard-footer-title">
+        <h1>INNOVATION ONBOARD</h1>
+        <p>A joint initiative by e@UBC, the UBC Faculty of Applied Science and the UBC Department of Chemical &amp; Biological Engineering</p>
+        <hr>
+    </div>
+    <div class="col-sm-6 col-lg-4 footer-info">
+        <p>Team</p>
+        <p>Contact Us</p>
+    </div>
+    <div class="col-sm-6 col-lg-4 footer-info">
+        <p>Schedule</p>
+        <p>Register</p>
+        <p>Sponsor Us</p>
+    </div>    
+
+    <div class="col-sm-6 col-lg-4 footer-info">
+        <p>Facebook</p>
+        <p>Twitter</p>
+        <p>Instagram</p>
+        <p>LinkedIn</p>
+    </div>  
+
+</footer>
 <script>
-    try {
-        Typekit.load({ async: true });
-    } catch (e) {}
+$('[data-spy="scroll"]').each(function () {
+     var $spy = $(this).scrollspy('refresh')
+  });
 </script>
 </body>
 </html>
