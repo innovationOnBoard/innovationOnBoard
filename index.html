@@ -3,9 +3,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700,900" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  
   <link rel="stylesheet" href="navbar.css">  
   <link rel="stylesheet" href="schedule.css">
   <link rel="stylesheet" href="clouds.css">  
+  <link rel="stylesheet" href="train.css">  
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
@@ -33,33 +36,42 @@
     <!--/.nav-collapse -->
   </div>
 </nav>
-<header class="onboard-header text-center">
-    <div class="x1 hidden-sm">
+
+
+<section class="train-section hidden-xs hidden-sm">
+    <div class="x1">
         <div class="cloud"></div>
     </div>
 
-    <div class="x2 hidden-sm">
+    <div class="x2">
         <div class="cloud"></div>
     </div>
 
-    <div class="x3 hidden-sm">
+    <div class="x3">
         <div class="cloud"></div>
     </div>
 
-    <div class="x4 hidden-sm">
-        <div class="cloud"></div>
+    <div class="train">
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      <div class="wheels"></div>
     </div>
 
-    <div class="x5 hidden-sm">
-        <div class="cloud"></div>
-    </div>
+    <div class="rails"></div>
+</section>
 
+<header class="container-fluid onboard-header text-center">
     <div class="onboard-title" id="home">
         <h1>Innovation OnBoard</h1>
         <p>Fostering Entrepreneurship in UBC Applied Science</p>
+        <hr>
     </div>
 </header>
-<!-- Begin Navbar -->
+
 
 <div class="container-fluid">
     <div class="row section-text">
@@ -258,34 +270,96 @@
     </div>  
 </div>
 
-<footer class="onboard-footer text-left">
-    <div class="col-lg-12 text-center onboard-footer-title">
-        <h1>INNOVATION ONBOARD</h1>
-        <p>A joint initiative by e@UBC, the UBC Faculty of Applied Science and the UBC Department of Chemical &amp; Biological Engineering</p>
-        <hr>
-    </div>
-    <div class="col-sm-6 col-lg-4 footer-info">
-        <p>Team</p>
-        <p>Contact Us</p>
-    </div>
-    <div class="col-sm-6 col-lg-4 footer-info">
-        <p>Schedule</p>
-        <p>Register</p>
-        <p>Sponsor Us</p>
-    </div>    
 
-    <div class="col-sm-6 col-lg-4 footer-info">
-        <p>Facebook</p>
-        <p>Twitter</p>
-        <p>Instagram</p>
-        <p>LinkedIn</p>
-    </div>  
+        <footer class="onboard-footer">
 
-</footer>
+            <div class="footer-left">
+
+                <h3>Innovation OnBoard</h3>
+
+                <p class="footer-links">
+                    <a href="#home">Home</a>
+                    ·
+                    <a href="#schedule">Schedule</a>
+                    ·
+                    <a href="#register">Register</a>
+                    ·
+                    <a href="#sponsor">Sponsor</a>
+                </p>
+
+                <p class="footer-company-name">All Rights Reserved &copy; 2017</p>
+            </div>
+
+            <div class="footer-center">
+
+                <div>
+                    <i class="fa fa-map-marker"></i>
+                    <p><span>Dept of Chemical &amp; Biological Engineering</span>2360 East Mall, Vancouver, BC Canada V6T 1Z3</p>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <p>+1 ​778-829-3780 </p>
+                </div>
+
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="mailto:hello@innovationonboard.ca">hello@innovationonboard.ca</a></p>
+                </div>
+
+            </div>
+
+            <div class="footer-right">
+
+                <p class="footer-company-about">
+                    <span>About The Program</span>
+                    Innovation OnBoard is a joint initiative by the UBC Faculty of Applied Science, UBC Department of Chemical &amp; Biological Engineering and e@UBC.
+                </p>
+
+                <div class="footer-icons">
+
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-github"></i></a>
+
+                </div>
+
+            </div>
+
+        </footer>
+
+
+
 <script>
 $('[data-spy="scroll"]').each(function () {
      var $spy = $(this).scrollspy('refresh')
   });
+
+// Add smooth scrolling on all links inside the navbar
+$("#navbar-main a").on('click', function(event) {
+
+  // Make sure this.hash has a value before overriding default behavior
+  if (this.hash !== "") {
+
+    // Prevent default anchor click behavior
+    event.preventDefault();
+
+    // Store hash
+    var hash = this.hash;
+
+    // Using jQuery's animate() method to add smooth page scroll
+    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 800, function(){
+
+    // Add hash (#) to URL when done scrolling (default click behavior)
+      window.location.hash = hash;
+    });
+
+  } // End if
+
+});
 </script>
 </body>
 </html>

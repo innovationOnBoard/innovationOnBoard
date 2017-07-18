@@ -1,0 +1,194 @@
+.train-section {
+  padding-top: 250px;
+  padding-bottom: 100px;
+  margin-bottom: 100px;
+  background: #00bcd4; /* Old browsers */
+  width: 100%;
+  overflow: hidden;
+}
+
+.train {
+  background: #ccc;
+  width: 800px;
+  height: 150px;
+  margin: 0 auto;
+  position: relative;
+  box-shadow: inset 0 4px 0 0 #bbb, -1px 0 0 0 #fff;
+  border-radius: 0 0 5px 5px;
+  animation: train 20s infinite linear;
+  -webkit-animation: train 20s infinite linear;
+}
+.train:before {
+  content: 'Innovation OnBoard';
+  position: absolute;
+  margin: auto;
+  width: 810px;
+  height: 80px;
+  top: -80px;
+  left: -5px;
+  background: #555;
+  border-radius: 4% 4% 0 0 / 100% 100% 0 0;
+  box-shadow: inset 0 4px 0 0 #555;
+  font-size: 18px;
+  color: #eee;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  padding-left: 100px;
+  padding-top: 40px;
+}
+.train:after {
+  content: '';
+  position: absolute;
+  margin: auto;
+  width: 60px;
+  height: 140px;
+  bottom: 0;
+  right: 20px;
+  background: #ccc;
+  border-radius: 5px 5px 0 0;
+  box-shadow: -2px -2px 0 0 #000000, 1px 0 0 0 #000000, inset 0 -15px 0 0 #000000;
+  z-index: 1;
+}
+.train ul {
+  list-style: none;
+  width: 718px;
+  height: 80px;
+  box-shadow: 0 20px 0 0 white;
+  padding-top: 10px;
+}
+.train ul:before {
+  content: '';
+  position: absolute;
+  width: 40px;
+  height: 60px;
+  background: #ddd;
+  right: 30px;
+  top: 20px;
+  z-index: 5;
+  border-radius: 5px;
+  box-shadow: 0 0 0 1px #4d4d4d, inset 0 2px 0 0 #062c52, inset 0 -1px 0 0 #062c52;
+}
+.train ul:after {
+  content: '';
+  position: absolute;
+  margin: auto;
+  bottom: -20px;
+  left: 0;
+  right: 0;
+  width: 780px;
+  height: 20px;
+  background: #555;
+  border-radius: 0 0 10px 10px;
+}
+.train ul li {
+  width: 120px;
+  height: 62px;
+  display: inline-block;
+  background: #00bcd4;
+  margin-left: 40px;
+  border-radius: 10px;
+  border: 4px solid #999999;
+  position: relative;
+  box-shadow: inset 0 2px 0 0 #ccc;
+  overflow: hidden;
+}
+.train ul li:hover:after {
+  height: 36px;
+}
+.train ul li:before {
+  content: '';
+  position: absolute;
+  margin: auto;
+  top: 20px;
+  bottom: 0;
+  left: 0;
+  background: #ccc;
+  width: 100%;
+  height: 4px;
+  box-shadow: 0 2px 0 0 #999;
+}
+.train ul li:after {
+  content: '';
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 0px;
+  background: #333;
+  box-shadow: 0 2px 0 0 #333;
+  transition: All .25s ease;
+  -webkit-transition: All .25s ease;
+  -moz-transition: All .25s ease;
+  -o-transition: All .25s ease;
+}
+.train .wheels {
+  width: 60px;
+  height: 60px;
+  background: #ddd;
+  position: absolute;
+  bottom: -60px;
+  left: 40px;
+  border-radius: 50%;
+  box-shadow: 80px 0 0 0 #ddd, 480px 0 0 0 #ddd, 560px 0 0 0 #ddd, 640px 0 0 0 #ddd;
+}
+.train .wheels:before {
+  content: '';
+  position: absolute;
+  margin: auto;
+  left: 30px;
+  bottom: 0;
+  top: 0;
+  width: 80px;
+  height: 10px;
+  background: #555;
+  box-shadow: 480px 0 0 0 #555, 560px 0 0 0 #555;
+}
+.train .wheels:after {
+  content: '';
+  position: absolute;
+  margin: auto;
+  right: 80px;
+  top: 0;
+  width: 60px;
+  height: 10px;
+  background: #555;
+}
+
+.rails {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+  margin-top: 52px;
+  position: relative;
+}
+.rails:before {
+  content: '';
+  position: absolute;
+  margin: auto;
+  left: 17.5px;
+  bottom: -12px;
+  height: 15px;
+  width: 20px;
+  background: #fff;
+  box-shadow: 50px 0 0 0 #fff, 100px 0 0 0 #fff, 150px 0 0 0 #fff, 200px 0 0 0 #fff, 250px 0 0 0 #fff, 300px 0 0 0 #fff, 350px 0 0 0 #fff, 400px 0 0 0 #fff, 450px 0 0 0 #fff, 500px 0 0 0 #fff, 550px 0 0 0 #fff, 600px 0 0 0 #fff, 650px 0 0 0 #fff, 700px 0 0 0 #fff, 750px 0 0 0 #fff, 800px 0 0 0 #fff, 850px 0 0 0 #fff, 900px 0 0 0 #fff, 950px 0 0 0 #fff, 1000px 0 0 0 #fff, 1050px 0 0 0 #fff, 1100px 0 0 0 #fff, 1150px 0 0 0 #fff, 1200px 0 0 0 #fff, 1250px 0 0 0 #fff, 1300px 0 0 0 #fff, 1350px 0 0 0 #fff, 1400px 0 0 0 #fff, 1450px 0 0 0 #fff, 1500px 0 0 0 #fff, 1550px 0 0 0 #fff, 1600px 0 0 0 #fff, 1650px 0 0 0 #fff, 1700px 0 0 0 #fff, 1750px 0 0 0 #fff, 1800px 0 0 0 #fff, 1850px 0 0 0 #fff, 1900px 0 0 0 #fff, 1950px 0 0 0 #fff, 2000px 0 0 0 #fff, 2050px 0 0 0 #fff, 2100px 0 0 0 #fff, 2150px 0 0 0 #fff, 2200px 0 0 0 #fff, 2250px 0 0 0 #fff, 2300px 0 0 0 #fff, 2350px 0 0 0 #fff, 2400px 0 0 0 #fff, 2450px 0 0 0 #fff, 2500px 0 0 0 #fff, 2550px 0 0 0 #fff;
+}
+
+@keyframes train {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -100%;
+  }
+}
+@-webkit-keyframes train {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -100%;
+  }
+}
