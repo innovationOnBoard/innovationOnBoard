@@ -54,7 +54,7 @@
 }
 .train .smoke{
   content: '';
-  background: url('http://chrisskinner.co/lab/landscape/img/smoke.png') no-repeat;
+  background: url('smoke.png') no-repeat;
   background-size: 118px;
   height: 52px;
   width: 118px;
