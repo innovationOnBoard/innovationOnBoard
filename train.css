@@ -52,6 +52,8 @@
   box-shadow: -2px -2px 0 0 #aaa, 1px 0 0 0 #aaa, inset 0 -15px 0 0 #aaa;
   z-index: 1;
 }
+
+/*from http://chrisskinner.co/*/
 .train .smoke{
   content: '';
   background: url('smoke.png') no-repeat;
