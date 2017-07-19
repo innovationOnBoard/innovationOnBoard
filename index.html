@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="train.css">  
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="jquery.countdown.min.js"></script>
 </head>
 <body data-spy="scroll" data-target="#navbar" data-offset="0">
 
@@ -38,7 +39,10 @@
 </nav>
 
 
-<section class="train-section hidden-xs hidden-sm">
+<section class="train-section text-center hidden-xs hidden-sm">
+    <h1 id="countdown">
+    </h1>
+    <p><b>Innovation OnBoard</b>'s First Workshop</p>
     <div class="x1">
         <div class="cloud"></div>
     </div>
@@ -362,6 +366,14 @@ $("#navbar-main a").on('click', function(event) {
   } // End if
 
 });
+</script>
+<script type="text/javascript">
+  $("#countdown")
+  .countdown("2017/09/13", function(event) {
+    $(this).text(
+      event.strftime('%D days %H:%M:%S')
+    );
+  });
 </script>
 </body>
 </html>
