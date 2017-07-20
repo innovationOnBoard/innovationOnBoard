@@ -13,11 +13,12 @@
   background: #00bcd4; /* Old browsers */
   width: 100%;
   overflow: hidden;
+  font-size: 25px;
+  color: #fff;  
 }
 
-.train-section {
-  font-size: 25px;
-  color: #fff;
+.train-section p{
+  z-index: 99;
 }
 
 .train {
@@ -32,7 +33,7 @@
   -webkit-animation: train 20s infinite linear;
 }
 .train:before {
-  content: 'Innovation OnBoard';
+  content: 'Innovation OnBoard is jointly hosted by Applied Science, e@UBC and CHBE';
   position: absolute;
   margin: auto;
   width: 810px;
@@ -42,13 +43,11 @@
   background: #555;
   border-radius: 4% 4% 0 0 / 100% 100% 0 0;
   box-shadow: inset 0 4px 0 0 #555;
-  font-size: 20px;
-  color: #eee;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  padding-left: 10px;
-  padding-top: 40px;
+  font-size: 17px;
+  color: #fff;
+  font-weight: 300;
+  letter-spacing: 0px;
+  padding-top: 20px;
 }
 .train:after {
   content: '';
@@ -74,7 +73,7 @@
   display: block;
   position: absolute;
   top: -160px;
-  left: 20px;
+  left: 80px;
   opacity: 0;
   -webkit-animation: steam 4s infinite;
   -moz-animation: steam 4s infinite;
@@ -114,7 +113,7 @@
   width: 120px;
   height: 62px;
   display: inline-block;
-  background: #00bcd4;
+  background: #eee;
   margin-left: 40px;
   border-radius: 10px;
   border: 4px solid #999999;
