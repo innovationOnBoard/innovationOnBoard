@@ -63,6 +63,9 @@ body {
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
   background-color: #fff !important;
   color: #006775 !important;
+  font-size: 16px;
+  font-weight: 500;
+  border-bottom-right-radius: 50%;
 }
 
 
