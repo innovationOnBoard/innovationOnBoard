@@ -28,9 +28,17 @@ body {
   font-size: 65px;
 }
 
-.onboard-icons h1{
-  font-size: 100%;
+@media (max-width: 880px) {
+
+  .onboard-title h1{
+  font-size: 45px;
 }
+
+}
+/*
+.onboard-icons h1{
+  font-size: 100% !important;
+}*/
 
 .onboard-icons h2{
   font-size: 100%;
