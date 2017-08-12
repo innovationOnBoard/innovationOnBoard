@@ -28,6 +28,14 @@ body {
   font-size: 65px;
 }
 
+.onboard-icons h1{
+  font-size: 100%;
+}
+
+.onboard-icons h2{
+  font-size: 100%;
+}
+
 .navbar-inverse{
   background: #00bcd4;
 }
@@ -236,7 +244,7 @@ body {
     display: block;
     width: 100%;
     margin-bottom: 40px;
-    text-align: center;
+    text-align: left;
   }
 
   .onboard-footer .footer-center i{
