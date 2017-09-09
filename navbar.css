@@ -11,6 +11,11 @@ body {
   border-radius: 50%;
 }
 
+.img-sponsor {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .onboard-header{
   margin-top: 10%;
   font-weight: 300;
