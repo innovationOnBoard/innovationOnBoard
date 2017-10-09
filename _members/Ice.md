@@ -2,9 +2,9 @@
 layout: post
 weight: 500
 name: Ice
-title: Ice
+title: Technical Compiler
 status: executive
-img: /assets/images/members/laurie.jpg
+img: /assets/images/members/ice.jpg
 email: siang [at] alumni.ubc.ca
 biography: >
   Ngai To recently graduated from UBC with distinction in chemical engineering (minor in computer science).
