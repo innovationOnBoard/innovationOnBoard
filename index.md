@@ -5,10 +5,10 @@ landing-title: 'Innovation OnBoard'
 description: null
 image: null
 author: null
-event-name: IP 101
-event-time: October 26th 2017
-event-link: https://www.facebook.com/events/119838185364178/
-event-desc: Learn the basics about intellectual property including associated costs, why you need it, and why it's important. Essien Udokang, a lawyer from the Toronto office of Baker Mckenzie, will be flying in to teach the workshop.
+event-name: Competition Landscape & Competitive Intelligence
+event-time: Novemger 15th 2017
+event-link: https://www.facebook.com/events/304203113393434/
+event-desc: Discover your competitors and position your venture to standout in the market.
 ---
 
 Sign up to get the latest updates for our exciting workshops, seminars and speaker series! To register your team for the competition, visit the Registration page.
