@@ -6,7 +6,7 @@ description: null
 image: null
 author: null
 event-name: Competition Landscape & Competitive Intelligence
-event-time: Novemger 15th 2017
+event-time: November 15th 2017
 event-link: https://www.facebook.com/events/304203113393434/
 event-desc: Discover your competitors and position your venture to standout in the market.
 ---
