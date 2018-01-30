@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 weight: 100
 name: Rickey Yada
