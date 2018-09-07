@@ -1,11 +1,10 @@
 ---
 layout: sponsor_page
-title: Sponsors
+title: Sponsors of the 2017/2018 cohort
 description: Sponsors and Community Supporters
 image: assets/images/pic05.jpg
 ---
 
-<h2 style="color: #2a2f4a !important;">Platinum</h2>
 <div class="row">
 {% for sponsor in site.sponsors %}
 	{% if sponsor.status == 'platinum' %}
@@ -20,7 +19,6 @@ image: assets/images/pic05.jpg
 
 <hr>
 
-<h2 style="color: #2a2f4a !important;">Gold</h2>
 <div class="row">
 {% for sponsor in site.sponsors %}
 	{% if sponsor.status == 'gold' %}
@@ -35,7 +33,6 @@ image: assets/images/pic05.jpg
 
 <hr>
 
-<h2 style="color: #2a2f4a !important;">Silver</h2>
 <div class="row">
 {% for sponsor in site.sponsors %}
 	{% if sponsor.status == 'silver' %}
@@ -50,7 +47,6 @@ image: assets/images/pic05.jpg
 
 <hr>
 
-<h2 style="color: #2a2f4a !important;">Community Partners</h2>
 <div class="row">
 {% for sponsor in site.sponsors %}
 	{% if sponsor.status == 'partner' %}
