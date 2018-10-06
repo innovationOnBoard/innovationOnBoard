@@ -15,7 +15,7 @@ phone: (778) 829-3780
 
 # homepage tiles
 tiles-source: posts # accepts "posts" or "pages"
-tiles-count: 6
+tiles-count: 7
 
 # social settings
 500px_url:
@@ -47,6 +47,9 @@ collections:
   members:
     output: true
     permalink: /members/:path/
+  mentors:
+    output: true
+    permalink: /mentors/:path/
   sponsors:
     output: true
     permalink: /sponsors/:path/
