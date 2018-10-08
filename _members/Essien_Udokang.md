@@ -3,7 +3,7 @@ layout: post
 weight: 100
 name: Essien Udokang
 status: speaker
-title: UBC UILO
+title: IP Lawyer
 img: /assets/images/members/Essien_Udokang.jpg
 email: 
 biography: >

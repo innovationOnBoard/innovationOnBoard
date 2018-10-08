@@ -3,7 +3,7 @@ layout: post
 weight: 100
 name: Darrel Kopke
 status: speaker
-title: Adjunct Prof UBC
+title: Program Director Creative Destruction Lab 
 img: /assets/images/members/Darrel_Kopke.jpg
 email: 
 biography: >
