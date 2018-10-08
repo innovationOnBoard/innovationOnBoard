@@ -89,8 +89,12 @@ nav-menu: true
     <hr>
     <p>If you're signing up to be a <b>mentor</b>, please use this link:</p>
 
-    <p><a href="https://form.jotform.ca/72508244016248" class="button fit">Mentor Registration</a></p>
-
+    <p><a href="https://goo.gl/forms/wYy145odJ9Fsivtv1" class="button fit">Mentor Registration</a></p>
+    <p><a href="{{ '/assets/mentorship.pdf' | prepend: site.baseurl | prepend: site.url }}" class="button next">Mentorship package</a></p>
+   <!--  
+    <p><a href="{{ '/assets/mentorship.pdf' | prepend: site.baseurl | prepend: site.url }}"" class="button fit">Mentorship package</a>
+    </p>
+ -->
 </div>
 
 </div>
