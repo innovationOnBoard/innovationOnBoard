@@ -1,7 +1,7 @@
 ---
 layout: post
 weight: 500
-name: Fiona Da Silva
+name: Fiona D'Silva
 title: Logistics Lead
 status: executive
 img: /assets/images/members/ice.jpg
