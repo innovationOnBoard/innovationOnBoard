@@ -85,7 +85,7 @@ nav-menu: true
         </dd>
     </dl>
 
-    <p><a href="https://form.jotform.ca/72286450390255" class="button special fit">Competition Registration</a></p>
+    <p><a href="https://goo.gl/forms/mvlqhtLvMeNwrcGE3" class="button special fit">Competition Registration</a></p>
     <hr>
     <p>If you're signing up to be a <b>mentor</b>, please use this link:</p>
 

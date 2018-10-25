@@ -37,7 +37,8 @@ markdown: kramdown
 sass:
   style: compressed
 
-plugins:
+# plugins:
+plugins_dir:
   - jekyll-redirect-from
 
 # -----------------------------------------------------------------------------
