@@ -6,7 +6,7 @@ description: null
 image: null
 author: null
 event-name: "Innovation Fair"
-event-time: "January 23, 5:30PM, UBC CHBE Atrium"
+event-time: "January 24, 5:30PM, UBC CHBE Atrium"
 event-link: 
 event-desc: Compete against other teams for the top 5 spots and the chance to pitch before a live panel of judges.
 ---
